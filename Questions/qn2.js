@@ -9,3 +9,4 @@ function stringModifier(str, position, char) {
     return str.substring(0, position) + char + str.substring(position + 1);
    }
    
+   console.log(stringModifier("hello", 1, "o"));
