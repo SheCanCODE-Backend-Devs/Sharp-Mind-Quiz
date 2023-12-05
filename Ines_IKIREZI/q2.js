@@ -1,4 +1,4 @@
-function stringModifier(){
+function stringModifier(str,index,value){
     var a=str.split('');
     a[index]=value;
     return a.join('');
