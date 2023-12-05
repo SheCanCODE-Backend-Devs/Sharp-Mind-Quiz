@@ -1,0 +1,6 @@
+function capitalizeString(string){
+    return string.toUpperCase();
+
+}
+//output
+console.log(capitalizeString("umubyeyi"));
