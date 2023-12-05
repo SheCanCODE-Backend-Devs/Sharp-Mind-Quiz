@@ -1,0 +1,6 @@
+function reverseString(string){
+    return string.reverse();
+}
+var word = [hello];
+//output
+console.log(reverseString(word));
