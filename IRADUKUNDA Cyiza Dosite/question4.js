@@ -2,18 +2,21 @@
 Implement a function that searches for a specific key in an object. */
 
 function findKey(object,key) {
+ // for (key in object){
+
+ //}
+ //
     fruits = {
         apple: "red",
         banana: "yellow",
         cherry: "purple"
     }
-    for (let key in object) {
-        if (object[key] === key) {
-            return true;
-        }
+    if(fruits.hasOwnProperty(key)){
+        return fruits[key]
     }
-    return false;
+    
 }
-findKey("fruits", "apple")
+
+console.log(findKey("fruits","banana"));
 
 
