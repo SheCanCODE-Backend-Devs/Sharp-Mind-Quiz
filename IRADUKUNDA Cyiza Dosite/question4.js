@@ -1,11 +1,11 @@
 /*
 Implement a function that searches for a specific key in an object. */
 
-function findKeyInObject(key, object) {
-    fruits={
-        name:"apple",
-        amount:2,
-        color:"red"
+function findKey(object,key) {
+    fruits = {
+        apple: "red",
+        banana: "yellow",
+        cherry: "purple"
     }
     for (let key in object) {
         if (object[key] === key) {
@@ -14,4 +14,6 @@ function findKeyInObject(key, object) {
     }
     return false;
 }
-findKeyInObject("color", "fruits")
+findKey("fruits", "apple")
+
+
