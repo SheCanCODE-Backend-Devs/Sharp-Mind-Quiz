@@ -1,4 +1,4 @@
 function convertUppercase(arr){
     return arr.toUpperCase();
 }
-console.log(convertUppercase("aline"));
+console.log(convertUppercase("uwera"));

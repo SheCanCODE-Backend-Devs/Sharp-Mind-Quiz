@@ -4,4 +4,4 @@ function stringModifier(word,a,b){
     c[b] = a;
     return c.join(''); 
 }
-console.log(stringModifier("aline",4,'ii'));
+console.log(stringModifier("aline",4,'a'));
