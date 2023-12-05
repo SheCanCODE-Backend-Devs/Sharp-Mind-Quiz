@@ -1,0 +1,4 @@
+function upperCase(string){
+    return string.toUpperCase();
+}
+console.log(upperCase("grace"));
