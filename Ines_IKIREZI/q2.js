@@ -4,4 +4,4 @@ function stringModifier(str,index,value){
     return a.join('');
  };
  
- console.log(stringModifier("Ines",2,"y"));
+ console.log(stringModifier("Ines",2,"i"));
