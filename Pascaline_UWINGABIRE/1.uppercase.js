@@ -1,9 +1,9 @@
-function convertToUpperCase(array) {
-    // Use the map method to convert each string to uppercase
-    return array.map(str => str.toUpperCase());
-}
-const originalArray = ["apple", "banana", "orange", "grape"];
-const uppercasedArray = convertToUpperCase(originalArray);
-
-console.log("Original Array:", originalArray);
-console.log("Uppercased Array:", uppercasedArray);
+function reverseString(str) {
+    let reversedWord ="";
+    for (let i =str.length - 1;i >= 0;i--){
+      reversedWord +=str[i];
+    }
+    return reversedWord;
+  }
+  
+  reverseString("hello");
