@@ -1,0 +1,5 @@
+let search = {
+    name :"marie",
+    age : 29
+}
+console.log(search.name);
