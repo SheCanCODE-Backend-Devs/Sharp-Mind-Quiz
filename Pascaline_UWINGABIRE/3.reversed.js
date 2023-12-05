@@ -1,10 +1,9 @@
 function reverseString(str) {
-    return str.split('').reverse().join('');
-}
-
-// Example usage:
-const inputStr = "Hellorev";
-const reversedStr = reverseString(inputStr);
-
-console.log(`Original String: ${inputStr}`);
-console.log(`Reversed String: ${reversedStr}`);
+    let reversedWord ="";
+    for (let i =str.length - 1;i >= 0;i--){
+      reversedWord +=str[i];
+    }
+    return reversedWord;
+  }
+  
+  reverseString("hello");
