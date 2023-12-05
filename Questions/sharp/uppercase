@@ -1,3 +1,4 @@
+//function that capitalize a string
 function capitalizeString(string){
     return string.toUpperCase();
 
