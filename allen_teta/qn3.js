@@ -6,5 +6,5 @@ function reverseFunction(str){
   var reversedString= reversedCharacter.join("");
   console.log(reversedString);
 }
-str=" my name";
+str=" hello";
 reverseFunction( str);
